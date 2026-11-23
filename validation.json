@@ -1,0 +1,43 @@
+{
+  "binary_files_sha256_verified": 183,
+  "normal_state_groups": 60,
+  "normal_reference_refit": {
+    "dataset": "mvtec",
+    "category": "bagel",
+    "shot": 1,
+    "same_calibration_as_packaged": true
+  },
+  "metric_scale": "0-1",
+  "full_category_evaluation": [
+    {
+      "dataset": "eyecandies",
+      "category": "CandyCane",
+      "shot": 2,
+      "test_images": 50,
+      "metrics": {
+        "auc": 0.4752,
+        "seg_auc": 0.9836925422995515,
+        "aupro": 0.9441309779273723,
+        "aupro_0p1": 0.8323929337821169,
+        "aupro_0p05": 0.681397887241166,
+        "aupro_0p01": 0.2943549633898158
+      },
+      "max_abs_difference": 7.652878331043667e-10
+    },
+    {
+      "dataset": "mvtec",
+      "category": "bagel",
+      "shot": 1,
+      "test_images": 110,
+      "metrics": {
+        "auc": 0.9752066115702479,
+        "seg_auc": 0.9970802505567137,
+        "aupro": 0.9794454856222964,
+        "aupro_0p1": 0.9396752501226454,
+        "aupro_0p05": 0.8827375632301829,
+        "aupro_0p01": 0.46995747569932383
+      },
+      "max_abs_difference": 5.18567655483082e-09
+    }
+  ]
+}
