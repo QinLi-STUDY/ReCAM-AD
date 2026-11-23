@@ -12,6 +12,8 @@ The experiment fixes all neural weights. The local shot count refers to original
 
 ## Weights
 
+> All model weights and fitted calibration states needed to reproduce the reported results will be released upon acceptance of the paper.
+
 | Directory | Contents |
 | --- | --- |
 | [weights/backbones](weights/backbones) | DINOv1 ViT-B/8, DINOv2 ViT-B/14 and the Point-MAE initialization loaded by the inherited model constructor. The marginal geometry path encodes measured surface normals with DINOv2. |
